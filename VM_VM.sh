@@ -1,6 +1,6 @@
-sudo mkdir /home/jenkin
-sudo chown -R jenkins:jenkins /home/jenkins
+sudo mkdir /home/jenkins
 sudo useradd jenkins
+sudo chown -R jenkins:jenkins /home/jenkins
 sudo su - jenkins
 
 mkdir ~/.ssh

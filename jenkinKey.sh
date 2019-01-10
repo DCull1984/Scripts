@@ -1,9 +1,9 @@
-mkdir /var/lib/jenkins/.ssh
+sudo mkdir /var/lib/jenkins/.ssh
 
-ssh-keygen /var/lib/jenkins/.ssh/id_rsa
+sudo ssh-keygen #/var/lib/jenkins/.ssh/id_rsa
 
 cd /var/lib/jenkins/
 
-chown -R jenkins:jenkins .ssh
-chmod 700 .ssh
-chmod 600 ~/.ssh/*
+sudo chown -R jenkins:jenkins .ssh
+sudo chmod 700 .ssh
+sudo chmod 600 ~/.ssh/*

@@ -9,3 +9,6 @@ sudo systemctl enable jenkins.service
 
 sudo firewall-cmd --zone=public --permanent --add-port=8080/tcp
 sudo firewall-cmd --reload
+
+sudo yum install -y maven
+mvn clean package

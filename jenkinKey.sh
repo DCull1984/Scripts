@@ -1,6 +1,6 @@
 mkdir /var/lib/jenkins/.ssh
 
-ssh-keygen /var/lib/jenkins/.ssh/id_rsa
+ssh-keygen #/var/lib/jenkins/.ssh/id_rsa
 
 cd /var/lib/jenkins/
 
